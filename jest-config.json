@@ -1,0 +1,13 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "./src",
+  "testEnvironment": "node",
+  "testMatch": ["**/?(*.)+(spec|test).[jt]s"],
+  "transform": {
+    "^.+\\.(t|j)s$": ["ts-jest"]
+  },
+  "setupFiles": ["dotenv/config"],
+  "moduleNameMapper": {
+    "^~(.*)$": "<rootDir>/$1"
+  }
+}
